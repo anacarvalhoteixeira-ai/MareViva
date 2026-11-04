@@ -3,16 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4e7d2" />
+    <meta name="theme-color" content="#f3dfbb" />
     <title>Maré Viva — cuidado que nasce do território</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
-  
+
   <body>
     <header class="top">
       <div class="wrap nav">
-        <a class="brand" href="#inicio"
-          >Maré Viva<small>ESFOLIANTE NATURAL</small></a
-        >
+        <a class="brand" href="#inicio">
+          <picture>
+            <source media="(max-width: 760px)" srcset="./assets/mare-viva-texto-centralizado.png" />
+            <img class="brand-wordmark" src="./assets/mare-viva-texto-esquerda.png" alt="Maré Viva — Esfoliante natural" width="1500" height="450" />
+          </picture>
+        </a>
         <nav class="links" aria-label="Navegação principal">
           <a href="#territorio">Território</a><a href="#video">Tutorial</a
           ><a href="#etapas">Etapas</a><a href="#produto">Produto</a>
@@ -33,9 +40,7 @@
                 </p>
                 <a class="button" href="#video">Conheça o processo ↓</a>
             </div>
-            <div class="selo">            
-                <img class="selo" src="./assets/Selo_Circular_Maré_Viva-removebg-preview.png">         
-            </div>
+            <img class="hero-logo" src="./assets/Selo_Circular_Maré_Viva-removebg-preview.png" alt="Selo Maré Viva" width="300" height="300" />
         </div>
       </section>
       <section class="section paper" id="territorio">
@@ -62,11 +67,7 @@
               iniciativas de reaproveitamento e oportunidades para o comércio
               local.
             </p>
-            <div class="chips">
-              <span class="chip">Paripe · Salvador</span
-              ><span class="chip">Reaproveitamento</span
-              ><span class="chip">Saberes da comunidade</span>
-            </div>
+
           </div>
           <div>
             <aside class="note">
